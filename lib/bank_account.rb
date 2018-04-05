@@ -1,6 +1,5 @@
 class BankAccount
   attr_reader :name, :balance, :status
-  # status & balance writers are for test spec purposes.
   attr_writer :status, :balance
 
   def initialize (name)
