@@ -1,6 +1,6 @@
 class BankAccount
   attr_reader :name, :balance, :status
-  # status & balance writers are for test spec purposes.  Really these should probably only be updated through methods
+  # status & balance writers are for test spec purposes.
   attr_writer :status, :balance
 
   def initialize (name)
